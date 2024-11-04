@@ -1,46 +1,28 @@
-/* Genel stil ayarları */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
 }
 
-/* Başlık ve altbilgi */
-header, footer {
-    background-color: #35424a;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+header h1 {
+  font-size: 2.5em;
+  color: #333;
 }
 
-/* Navigasyon menüsü */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    background-color: #333;
+header p {
+  font-size: 1.2em;
+  color: #666;
 }
 
-nav ul li {
-    margin: 0 15px;
+.header-buttons .button {
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Bölüm düzeni */
-section {
-    padding: 20px;
-    margin: 20px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-h2 {
-    color: #35424a;
+.header-buttons .button:hover {
+  background-color: #555;
 }
