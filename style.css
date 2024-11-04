@@ -1,0 +1,46 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Başlık ve altbilgi */
+header, footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigasyon menüsü */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Bölüm düzeni */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    color: #35424a;
+}
