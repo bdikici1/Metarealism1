@@ -1,0 +1,26 @@
+/* Galeri Bölümü */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.art-piece {
+  text-align: center;
+  width: 200px;
+}
+
+.art-piece img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.art-piece a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #39ff14; /* Neon renk */
+  text-decoration: none;
+}
