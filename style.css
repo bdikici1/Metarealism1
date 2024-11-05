@@ -70,4 +70,23 @@ p {
 
 .social-links a:hover {
     color: #0073e6;
+}/* Sosyal Bağlantılar Stili */
+.social-links {
+    display: flex; /* Bağlantıları yan yana sıralar */
+    gap: 10px; /* Bağlantılar arasında boşluk */
+    margin: 20px 0;
+    justify-content: center; /* Ortaya hizalar */
+}
+
+.social-links a {
+    color: #0073e6; /* Bağlantıların rengi */
+    text-decoration: none;
+    font-size: 12px; /* Font boyutunu küçültme */
+    padding: 5px 8px;
+    border-radius: 4px;
+    transition: color 0.3s ease; /* Renk geçişi efekti */
+}
+
+.social-links a:hover {
+    color: #ff6600; /* Üzerine gelindiğinde renk değişimi */
 }
