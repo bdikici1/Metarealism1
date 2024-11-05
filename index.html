@@ -1,20 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Metarealism</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Gallery</title>
+    <style>
+        /* Genel Stil */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 20px 0;
+            color: #444;
+        }
+
+        p {
+            max-width: 800px;
+            text-align: center;
+            margin: 0 20px 30px;
+            color: #666;
+        }
+
+        /* Galeri Stili */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Discover the Future of Digital Art with Metarealism</h1>
-    <p>A unique journey where information, art, and technology converge to reshape our digital reality.</p>
-    <div class="header-buttons">
-      <a href="explore-gallery.html" class="button">Explore Gallery</a>
-      <a href="#about" class="button">Learn More</a>
-      <a href="#contact" class="button">Contact Us</a>
+
+    <h1>Welcome to the Explore Gallery</h1>
+    <p>Discover a curated selection of artwork with dynamic visuals and unique styles. Each piece tells its own story and captures a unique perspective.</p>
+
+    <div class="gallery">
+        <!-- Galeri Ögesi 1 -->
+        <div class="gallery-item">
+            <img src="40660B15-2124-45A7-80CE-84B01990C483.png" alt="Artwork 1">
+            <div class="caption">Artwork 1 Description</div>
+        </div>
+
+        <!-- Galeri Ögesi 2 -->
+        <div class="gallery-item">
+            <img src="image2.png" alt="Artwork 2">
+            <div class="caption">Artwork 2 Description</div>
+        </div>
+
+        <!-- Galeri Ögesi 3 -->
+        <div class="gallery-item">
+            <img src="image3.png" alt="Artwork 3">
+            <div class="caption">Artwork 3 Description</div>
+        </div>
+
+        <!-- Galeri Ögesi 4 -->
+        <div class="gallery-item">
+            <img src="image4.png" alt="Artwork 4">
+            <div class="caption">Artwork 4 Description</div>
+        </div>
     </div>
-  </header>
+
 </body>
 </html>
