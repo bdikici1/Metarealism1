@@ -1,92 +1,29 @@
-/* Genel Stil */
-body {
-    font-family: Arial, sans-serif;
-    font-size: 14px; /* Tüm sayfa için genel font boyutu daha küçük yapıldı */
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.alt-menu {
+  background-color: #333;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
-h1 {
-    font-size: 22px; /* Başlık boyutu biraz küçültüldü */
-    color: #444;
-    margin: 20px 0;
+.alt-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-    font-size: 12px; /* Paragraf boyutu küçültüldü */
-    max-width: 800px;
-    text-align: center;
-    margin: 0 20px 30px;
-    color: #666;
+.alt-menu li {
+  display: inline;
+  margin: 0 15px;
 }
 
-/* Galeri Stili */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    max-width: 1000px;
-    padding: 20px;
-    width: 100%;
+.alt-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.gallery-item {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.gallery-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.caption {
-    font-size: 12px; /* Galeri açıklama metni daha küçük */
-    margin-top: 10px;
-    color: #555;
-}
-
-/* Sosyal Bağlantılar Stili */
-.social-links {
-    margin: 30px 0;
-}
-
-.social-links a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 14px; /* Sosyal bağlantılar font boyutu küçültüldü */
-}
-
-.social-links a:hover {
-    color: #0073e6;
-}/* Sosyal Bağlantılar Stili */
-.social-links {
-    display: flex; /* Bağlantıları yan yana sıralar */
-    gap: 10px; /* Bağlantılar arasında boşluk */
-    margin: 20px 0;
-    justify-content: center; /* Ortaya hizalar */
-}
-
-.social-links a {
-    color: #0073e6; /* Bağlantıların rengi */
-    text-decoration: none;
-    font-size: 12px; /* Font boyutunu küçültme */
-    padding: 5px 8px;
-    border-radius: 4px;
-    transition: color 0.3s ease; /* Renk geçişi efekti */
-}
-
-.social-links a:hover {
-    color: #ff6600; /* Üzerine gelindiğinde renk değişimi */
+.alt-menu a:hover {
+  text-decoration: underline;
 }
