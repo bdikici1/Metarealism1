@@ -1,26 +1,80 @@
-.alt-menu {
-  background-color: #333;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.alt-menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
 }
 
-.alt-menu li {
-  display: inline;
-  margin: 0 15px;
+header h1 {
+    margin: 0;
+    font-size: 14px;
 }
 
-.alt-menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
+header p {
+    margin: 5px 0 0;
+    font-size: 10px;
+    color: #666;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
