@@ -22,8 +22,8 @@ h1 {
 .profile-pic {
     border: 3px solid #333;
     border-radius: 5px;
-    width: 200px;
-    height: auto;
+    max-width: 100%; /* Görüntünün ekran boyutuna uyum sağlaması için */
+    height: auto; /* En-boy oranını korumak için */
     display: block;
     margin: 20px auto;
 }
