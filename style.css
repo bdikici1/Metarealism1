@@ -1,51 +1,69 @@
-/* Genellikle kullanılan sayfa ayarları */
+/* Genel ayarlar */
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff; /* Beyaz arka plan */
     color: #000000; /* Siyah yazı */
-    font-size: 9pt; /* Minimum yazı boyutu */
-    line-height: 1.6;
+    font-size: 10pt;
     margin: 0;
     padding: 0;
 }
 
-/* Yazı boyutları */
-p, li, span, a {
-    font-size: 10pt; /* Maksimum yazı boyutu */
-}
-
 /* Header ayarları */
 header {
-    background: linear-gradient(90deg, #000000, #ffffff); /* Siyah ve beyaz geçişli arka plan */
-    padding: 20px;
-    color: #ffffff; /* Yazı rengi beyaz */
-    text-align: center;
+    background-color: #ff69b4; /* Pembe header */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff; /* Beyaz yazı */
 }
 
 header h1 {
-    font-size: 20pt;
-    color: inherit;
+    font-size: 24pt; /* Ana başlık daha büyük */
+    margin: 0;
 }
 
-/* Diğer ana sayfa içerik alanları */
-main {
-    padding: 20px;
+header nav a {
+    color: #ffffff;
+    font-size: 14pt; /* Menü öğeleri */
+    text-decoration: none;
+    margin-left: 20px;
 }
 
-h2, h3, h4 {
-    color: #333333; /* Başlıklar için koyu gri renk */
+header nav a:hover {
+    text-decoration: underline; /* Link üzerine gelince alt çizgi */
 }
 
+/* Ana başlık ve alt başlıklar */
+h2 {
+    font-size: 20pt; /* Büyük başlık */
+    color: #333333;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 16pt; /* Orta büyüklükte başlık */
+    color: #555555;
+    margin-top: 15px;
+}
+
+/* Genel paragraflar */
+p, li {
+    font-size: 10pt; /* Varsayılan metin boyutu */
+    line-height: 1.6;
+}
+
+/* Link ayarları */
 a {
-    color: #007bff; /* Linkler için mavi ton */
+    color: #007bff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0056b3; /* Link hover rengi */
+    color: #0056b3;
 }
 
-/* Footer ayarları (isteğe bağlı) */
+/* Footer ayarları */
 footer {
     background-color: #f8f9fa;
     color: #333;
