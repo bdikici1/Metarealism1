@@ -1,46 +1,54 @@
-/* Genel stil ayarları */
+/* Genellikle kullanılan sayfa ayarları */
 body {
     font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Beyaz arka plan */
+    color: #000000; /* Siyah yazı */
+    font-size: 9pt; /* Minimum yazı boyutu */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
 }
 
-/* Başlık ve altbilgi */
-header, footer {
-    background-color: #35424a;
-    color: white;
+/* Yazı boyutları */
+p, li, span, a {
+    font-size: 10pt; /* Maksimum yazı boyutu */
+}
+
+/* Header ayarları */
+header {
+    background: linear-gradient(90deg, #000000, #ffffff); /* Siyah ve beyaz geçişli arka plan */
+    padding: 20px;
+    color: #ffffff; /* Yazı rengi beyaz */
     text-align: center;
-    padding: 20px 0;
 }
 
-/* Navigasyon menüsü */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    background-color: #333;
+header h1 {
+    font-size: 20pt;
+    color: inherit;
 }
 
-nav ul li {
-    margin: 0 15px;
+/* Diğer ana sayfa içerik alanları */
+main {
+    padding: 20px;
 }
 
-nav ul li a {
-    color: white;
+h2, h3, h4 {
+    color: #333333; /* Başlıklar için koyu gri renk */
+}
+
+a {
+    color: #007bff; /* Linkler için mavi ton */
     text-decoration: none;
 }
 
-/* Bölüm düzeni */
-section {
-    padding: 20px;
-    margin: 20px 0;
-    border-bottom: 1px solid #ddd;
+a:hover {
+    color: #0056b3; /* Link hover rengi */
 }
 
-h2 {
-    color: #35424a;
+/* Footer ayarları (isteğe bağlı) */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 10px;
+    text-align: center;
 }
