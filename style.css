@@ -1,91 +1,57 @@
-/* Genel ayarlar */
+/* Genel sayfa ayarları */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 10pt;
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
 
-/* Header ayarları */
-header {
-    background-color: #ff69b4;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #ffffff;
+/* About başlığı */
+h1 {
+    font-size: 28pt;
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
 }
 
-header h1 {
-    font-size: 28pt; /* Ana başlığı büyütme */
-    margin: 0;
+/* Profil fotoğrafı */
+.profile-pic {
+    border: 3px solid #333;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
-header nav {
-    display: flex;
-    gap: 15px; /* Alt başlıkları yan yana aralıklı şekilde dizme */
-}
-
-header nav a {
-    color: #ffffff;
-    font-size: 16pt; /* Alt başlık bağlantılarını büyütme */
-    text-decoration: none;
-}
-
-header nav a:hover {
-    text-decoration: underline;
+/* Metin kutusu */
+.text-content {
+    max-width: 600px;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 1.6;
+    margin: 20px auto;
+    color: #333;
 }
 
 /* Sosyal medya bağlantıları */
-.social-media {
-    font-size: 18pt; /* Sosyal medya bağlantı boyutunu büyütme */
+.social-links {
     display: flex;
+    justify-content: center;
     gap: 15px;
+    margin-top: 20px;
+    font-size: 12pt;
 }
 
-.social-media a {
-    color: #555555;
+.social-links a {
+    color: #000;
     text-decoration: none;
 }
 
-.social-media a:hover {
-    color: #000000;
-}
-
-/* Gallery sayfasındaki resimler */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-}
-
-.gallery img {
-    width: 200px; /* Resimlerin genişliğini küçültme */
-    height: auto;
-    border: 3px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.gallery img:hover {
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-/* Ana başlık ve alt başlıklar */
-h2 {
-    font-size: 22pt; /* Büyük başlık */
-    color: #333333;
-    margin-top: 20px;
-}
-
-h3 {
-    font-size: 18pt; /* Orta büyüklükte başlık */
-    color: #555555;
-    margin-top: 15px;
+.social-links a:hover {
+    text-decoration: underline;
 }
