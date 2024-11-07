@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 /* Header stili */
@@ -24,7 +25,7 @@ header a:hover {
     text-decoration: underline;
 }
 
-/* İçerik alanı */
+/* Ana içerik alanı */
 .content {
     padding: 20px;
     text-align: center;
@@ -46,6 +47,33 @@ header a:hover {
     display: block;
 }
 
+/* Ana başlık (örneğin "About" başlığı) */
+h1 {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #000;
+}
+
+/* Diğer başlık stilleri */
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Paragraflar */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    color: #333;
+}
+
 /* Footer stili */
 footer {
     background-color: #333;
@@ -65,4 +93,45 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Sosyal medya bağlantıları (opsiyonel) */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Galeri sayfasındaki resimler (opsiyonel) */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img:hover {
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
 }
